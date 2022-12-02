@@ -51,5 +51,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 4
           to_step: 5
-          branch_name: ci
           base_branch_name: ci
+
+      - name: Auto Approve
+        uses: hmarr/auto-approve-action@v3
+        with:
+          review-message: "Auto Approve"
