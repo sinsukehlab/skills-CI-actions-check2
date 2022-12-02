@@ -57,3 +57,4 @@ jobs:
         uses: hmarr/auto-approve-action@v3
         with:
           review-message: "Auto Approve"
+          pull-request-number: 1
