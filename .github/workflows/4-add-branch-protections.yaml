@@ -20,6 +20,7 @@ permissions:
   # Need `contents: read` to checkout the repository
   # Need `contents: write` to update the step metadata
   contents: write
+  pull-requests: write
 
 jobs:
   on_update_branch_protection:
